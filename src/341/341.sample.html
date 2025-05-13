@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+      setTimeout(function () {
+        const p = document.createElement("p");
+        p.id = "new-id";
+        p.textContent = "動的更新要素";
+        const div = document.getElementById("my-id");
+        div.appendChild(p);
+      }, 3000);
+    </script>
+  </head>
+  <body>
+    <h1>JavaScriptレンダリング</h1>
+    <div id="my-id"></div>
+  </body>
+</html>

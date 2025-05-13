@@ -1,0 +1,1 @@
+new_list = [f(x) for x in data if f(x) > 1]

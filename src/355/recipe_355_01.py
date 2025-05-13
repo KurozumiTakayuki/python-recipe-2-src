@@ -1,0 +1,7 @@
+async def main():
+    print('main')
+    return "result value"
+
+
+coroutine_obj = main()
+print(type(coroutine_obj))
